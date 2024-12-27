@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIslides</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="image-generation.html">Image Generator</a>
+        <a href="presentation.html">AI Presentations</a>
+    </nav>
+    <div class="container">
+        <h1>AI Presentation Creator</h1>
+        <div class="slide">
+            <input type="text" id="presentationTitle" placeholder="Enter presentation title...">
+            <textarea id="presentationContent" placeholder="Enter presentation content..." rows="5"></textarea>
+            <input type="number" id="numSlides" placeholder="Number of slides" min="1" value="1"> 
+            <button id="createPresentation">Create Presentation</button>
+        </div>
+      
+    </div>
+    <script src="presentation.js"></script>
+</body>
+</html>
